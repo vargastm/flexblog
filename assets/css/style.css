@@ -24,3 +24,26 @@ img {
 * {
   box-sizing: border-box;
 }
+
+/* Superinfo */
+.super-info-bg {
+  background: #122AB2;
+  color: white;
+}
+
+.super-info {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  max-width: 960px;
+  margin: 0 auto;
+  padding-top: 10px;
+}
+
+.super-info p, .super-info a {
+  margin: 0 10px 10px 10px;
+}
+
+.super-info a {
+  color: white;
+}
